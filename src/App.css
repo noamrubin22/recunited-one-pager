@@ -1,0 +1,43 @@
+.App {
+  background-color: #19191a;
+  min-height: 100vh;
+  text-align: center;
+}
+
+canvas {
+  width: 50vw;
+  height: 65vh;
+}
+
+.title {
+  font-size: 9rem;
+  padding: 0;
+  color: rgb(84, 146, 140);
+  font-family: "Martel", serif;
+  letter-spacing: 0.6rem;
+  font-weight: bolder;
+  text-shadow: 2px 2px rgb(30, 63, 59);
+  margin: 1rem;
+  margin-bottom: 0rem;
+}
+
+.subtitle {
+  font-family: "Work Sans", sans-serif;
+  font-size: 3rem;
+  margin: 0;
+  padding: 0;
+  color: rgb(4, 79, 71);
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+.logo_img {
+  height: 7rem;
+  margin: 1rem;
+}

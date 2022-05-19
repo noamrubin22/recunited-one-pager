@@ -13,7 +13,7 @@ function App() {
       <div className={styles.logo}>
         <h1 className={styles.title}>RECUNITED</h1>
       </div>
-      <p className={styles.subtitle}>Talente so einzigartig wie ihr Team</p>
+      <p className={styles.subtitle}>Talente so einzigartig wie Ihr Team</p>
     </div>
   );
 }

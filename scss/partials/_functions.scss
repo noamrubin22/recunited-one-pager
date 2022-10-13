@@ -1,3 +1,4 @@
+@use "sass:math";
 // creates dynamic length throughout different screensizes
 @function fluid-length(
   $min-length,
@@ -5,7 +6,7 @@
   $min-viewport: 23.4375,
   $max-viewport: 90
 ) {
-  $slope: ($max-length - $min-length) / ($max-viewport - $min-viewport);
+  $slope: math.div($max-length - $min-length, $max-viewport - $min-viewport);
 
   @return clamp(
     #{$min-length}rem,

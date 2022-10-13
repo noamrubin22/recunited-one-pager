@@ -4,4 +4,5 @@
 
 ## Goal
 
-Created this for marketing purposes and to experiment with the three.js library
+Created this for marketing purposes and to experiment with the three.js library.
+Deployed on vite.
